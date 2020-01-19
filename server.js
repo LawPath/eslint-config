@@ -4,6 +4,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    'no-console': 'off',
     'id-length': [
       'error',
       {

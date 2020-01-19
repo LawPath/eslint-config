@@ -5,6 +5,8 @@ module.exports = {
   rules: {
     'prefer-destructuring': 'off',
     'react/sort-comp': 'off',
+    'jsx-a11y/alt-text': 'off',
+    'react/require-default-props': 'off',
     'prettier/prettier': [
       'error',
       {
