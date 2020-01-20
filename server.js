@@ -2,6 +2,7 @@ module.exports = {
   extends: ['./index'].map(require.resolve),
   env: {
     node: true,
+    jest: true,
   },
   rules: {
     'no-console': 'off',
