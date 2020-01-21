@@ -23,8 +23,6 @@ module.exports = {
       },
     ],
     'react/no-direct-mutation-state': 'error',
-    // overriding eslint-plugin-react below, it creates too many errors in our codebases
-    // and not fixable with  --fix
     'react/destructuring-assignment': 'off',
     'id-length': [
       'error',
