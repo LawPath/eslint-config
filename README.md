@@ -36,19 +36,8 @@ Server config add this configuration to your `package.json`:
 
 ## Major features
 
-### Less than 4 arguments appear on 1 line. If it goes to 5 then it splits the args onto multi lines
+* Less than 4 arguments appear on 1 line. If it goes to 5 then it splits the args onto multi lines
 
-![test](./assets/2.png)
+* Ensure we have semi colon at the end as well as trailing commas
 
-![test](./assets/1.png)
-
-### Ensure we have semi colon at the end as well as trailing commas
-
-![test](./assets/3.png)
-![test](./assets/6.png)
-
-
-### logical operators split to multi line for ease of refactoring
-![test](./assets/4.png)
-
-![test](./assets/5.png)
+* logical operators split to multi line for ease of refactoring
