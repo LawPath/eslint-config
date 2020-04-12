@@ -49,7 +49,6 @@ module.exports = {
       },
     ],
     curly: ['error', 'all'],
-    'id-blacklist': ['error', 'styled'],
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': 'error',

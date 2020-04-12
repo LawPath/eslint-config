@@ -4,6 +4,7 @@ module.exports = {
     browser: true,
   },
   rules: {
+    'no-console': 'off',
     'jsx-a11y/label-has-for': [
       'error',
       {
