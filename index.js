@@ -7,6 +7,7 @@ module.exports = {
     'react/sort-comp': 'off',
     'jsx-a11y/alt-text': 'off',
     'react/require-default-props': 'off',
+    'import/prefer-default-export': 'off',
     'prettier/prettier': [
       'error',
       {
@@ -53,7 +54,7 @@ module.exports = {
     'no-plusplus': 'off',
     'no-prototype-builtins': 'off',
     'default-case': 'off',
-    'radix': 'off',
+    radix: 'off',
     'react/default-props-match-prop-types': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-no-target-blank': 'off',
