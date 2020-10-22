@@ -33,11 +33,3 @@ Server config add this configuration to your `package.json`:
   }
 }
 ```
-
-## Major features
-
-* Less than 4 arguments appear on 1 line. If it goes to 5 then it splits the args onto multi lines
-
-* Ensure we have semi colon at the end as well as trailing commas
-
-* logical operators split to multi line for ease of refactoring

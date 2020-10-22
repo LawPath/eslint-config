@@ -15,7 +15,6 @@ module.exports = {
         arrowParens: 'always',
       },
     ],
-    'no-negated-condition': 'error',
     'react/jsx-filename-extension': [
       'warn',
       {
@@ -70,11 +69,9 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'react/jsx-no-target-blank': 'off',
     'react/no-access-state-in-setstate': 'off',
-    'react/no-array-index-key': 'off',
     'react/no-find-dom-node': 'off',
     'react/no-unescaped-entities': 'off',
     'react/prop-types': 'off',
     'react/self-closing-comp': 'off',
-
   },
 };
