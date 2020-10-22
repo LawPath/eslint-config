@@ -23,21 +23,9 @@ module.exports = {
     ],
     'react/no-direct-mutation-state': 'error',
     'react/destructuring-assignment': 'off',
-    'id-length': [
-      'error',
-      {
-        min: 3,
-        properties: 'never',
-        exceptions: ['_', 'id'],
-      },
-    ],
+    'id-length': 'off',
     'padded-blocks': 'off',
-    'no-underscore-dangle': [
-      'error',
-      {
-        allowAfterThis: true,
-      },
-    ],
+    'no-underscore-dangle': 'off',
     'no-unused-vars': [
       'error',
       {
