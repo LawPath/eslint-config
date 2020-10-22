@@ -52,6 +52,7 @@ module.exports = {
     'no-negated-condition': 'off',
     'no-plusplus': 'off',
     'no-prototype-builtins': 'off',
+    'default-case': 'off',
     'radix': 'off',
     'react/default-props-match-prop-types': 'off',
     'react/forbid-prop-types': 'off',
