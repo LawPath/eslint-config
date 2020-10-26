@@ -64,4 +64,9 @@ module.exports = {
     'react/prop-types': 'off',
     'react/self-closing-comp': 'off',
   },
+  settings: {
+    'import/resolver': {
+      alias: [['frontend', './src/frontend']],
+    },
+  },
 };
