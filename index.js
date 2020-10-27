@@ -36,7 +36,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    curly: ['error', 'all']jjjj,
+    curly: ['error', 'all'],
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': 'error',
