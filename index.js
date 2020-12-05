@@ -27,6 +27,7 @@ module.exports = {
     'id-length': 'off',
     'padded-blocks': 'off',
     'no-underscore-dangle': 'off',
+    'no-case-declarations': 'off', 
     'no-unused-vars': [
       'error',
       {
