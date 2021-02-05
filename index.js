@@ -27,7 +27,7 @@ module.exports = {
     'id-length': 'off',
     'padded-blocks': 'off',
     'no-underscore-dangle': 'off',
-    'no-case-declarations': 'off', 
+    'no-case-declarations': 'off',
     'no-unused-vars': [
       'error',
       {
@@ -71,6 +71,11 @@ module.exports = {
     'no-plusplus': 'off',
     'no-prototype-builtins': 'off',
     'default-case': 'off',
+    'sort-keys': [
+      'error',
+      'asc',
+      { caseSensitive: true, natural: false, minKeys: 2 },
+    ],
     radix: 'off',
     'react/default-props-match-prop-types': 'off',
     'react/forbid-prop-types': 'off',
