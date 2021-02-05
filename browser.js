@@ -1,20 +1,20 @@
 module.exports = {
-  extends: ['./index'].map(require.resolve),
   env: {
     browser: true,
   },
+  extends: ['./index'].map(require.resolve),
   rules: {
-    'no-console': 'off',
     'jsx-a11y/label-has-for': [
       'error',
       {
+        allowChildren: false,
         components: [],
         required: {
           every: ['nesting', 'id'],
         },
-        allowChildren: false,
       },
     ],
+    'no-console': 'off',
   },
   settings: {
     'import/resolver': {
