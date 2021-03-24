@@ -68,9 +68,9 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': [
-      'warn',
+      1,
       {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     ],
     'react/jsx-no-target-blank': 'off',
