@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Lawpath global linting rules",
   "main": "index.js",
   "scripts": {
