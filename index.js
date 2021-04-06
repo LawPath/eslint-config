@@ -68,7 +68,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': [
-      1,
+      2,
       {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
@@ -94,7 +94,7 @@ module.exports = {
     'react/self-closing-comp': 'off',
     'react/sort-comp': 'off',
     'sort-keys': [
-      'error',
+      'warn',
       'asc',
       {
         caseSensitive: true,
